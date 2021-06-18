@@ -36,3 +36,17 @@ nav .nav-right-section a {
     color: #000000;
 
 }
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat; /*no repeat because there are moments where the img is repeated*/
+    background-position: 100%;
+    background-size: contain; /*to be equal with my container*/
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
