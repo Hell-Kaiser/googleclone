@@ -87,3 +87,9 @@ main .main-input input{
     border: none;
     outline: none;
 }
+
+main .main-input-container:hover{ /*With this when the cursor "hovers" the element do something*/
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+
+}
